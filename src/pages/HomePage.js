@@ -8,7 +8,7 @@ import Header from '../components/Header';
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
-  const navigate = useNavigate();
+
 
   const API_KEY = '40395510edcd99a28d89af43cb5e07b8';
   const popularMoviesUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`;
